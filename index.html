@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="img/Yams_Too-removebg-preview.png" type="img/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        .center-container {
+            display: flex;
+            height: 40vh;
+
+        }
+
+        .center-container .main-img {
+            height: 65%;
+            width: 26%;
+            justify-content: left;
+            align-items: left;
+            padding-top: 8%;
+            margin-left: 1%;
+            transition: transform 700ms;
+            transition-timing-function:
+                cubic-bezier(.75, -3, .25, 4);
+            filter: drop-shadow(1px 1px 2px);
+        }
+
+       
+        .t-container {
+
+            display: flex;
+            padding: 4%;
+        }
+
+        main.row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 50px;
+        }
+
+        .col .contents .box {
+            position: relative;
+            padding: 2px;
+            margin-bottom: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <h1 class="font-semibold">C. delights</h1>
+            <div class="div nav-links " id="navLinks">
+            <i class="fa fa-times left-2" id="fas" onclick="hideMenu()"></i>
+                <ul>
+                    <a href="#home">HOME</a>
+                    <a href="#product">PRODUCT</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="contact.php">MENU</a>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+<br>
+    <div class="center-con">
+        <img src="img/donut-removebg-preview.png" class="main-img">
+    </div>
+   
+    <div class="center-container" id="home">
+        <h1>
+                Enjoy Delicious<br><span><i class="fa-solid fa-donut"></i>  mini-donut</span><blockquote>"Enhance your day – treat yourself with a flavorful mini donut."
+                </blockquote>
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-3">order now!</button>
+        </h1>
+        
+    </div>
+        
+
+    <div class="test" id="product">
+        <h1 class="head">FEATURED</h1>
+        <p class="header"><span>MINI DONUTS</span></p>
+    </div>
+    <div class="my-container">
+        <div>
+
+
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/donut2.png">
+                <h2><span>O</span>ne dozen Classic mini doughnuts</h2>
+                <p>Php 95.00 | 12pcs</p><br>
+                
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-4">order now  <i class="fa-solid fa-cart-plus fa-lg"></i></button>
+            </div>
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/delicious-donuts-ai-generated-removebg-preview.png">
+                <h2>Half dozen Classic mini doughnuts</h2>
+                <p>Php 55.00 | 6pcs</p><br>
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-4">order now  <i class="fa-solid fa-cart-plus fa-lg"></i></button>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/delicious-donuts-ai-generated-removebg-preview.png">
+                <h2>One dozen Messy mini doughnuts</h2>
+                <p>Php 00.00 | 12pcs</p><br>
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-4">order now  <i class="fa-solid fa-cart-plus fa-lg"></i></button>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/delicious-donuts-ai-generated-removebg-preview.png">
+                <h2>One dozen Messy mini doughnuts</h2>
+                <p>Php 49.00</p><br>
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-4">order now  <i class="fa-solid fa-cart-plus fa-lg"></i></button>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/delicious-donuts-ai-generated-removebg-preview.png">
+                <h2>One dozen Classic mini doughnuts</h2>
+                <p>Php 49.00</p><br>
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-4">order now  <i class="fa-solid fa-cart-plus fa-lg"></i></button>
+            </div>
+
+        </div>
+    </div>
+    <div class="about" id="">
+        <h4 id="about">We provide Mini Food</h4>
+        <p> sit a perspiciatis labore, c<br> Corrupti quos reprehenderit veniam libero deleniti suscipit nobis nam quidem eos tempora? Atque, iusto nesciunt!</p>
+        <img src="img/download__2_-removebg-preview (1).png">
+    </div>
+   
+
+    
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+
+
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 1600,
+            delay: 400
+        }); 
+        ScrollReveal().reveal('.merit, contents, box, h3, test, h1', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.ul, .a', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.center-con, .main-img', { delay: 200, origin: 'top' });
+     
+
+
+    </script>
+</body>
+
+
+</html>
